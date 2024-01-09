@@ -2,26 +2,141 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap");
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  /* Purple Shades */
+  --purple-60: #703bf7;
+  --purple-65: #8254f8;
+  --purple-70: #946cf9;
+  --purple-75: #a685fa;
+  --purple-90: #dbcefd;
+  --purple-95: #ede7fe;
+  --purple-97: #f4f0fe;
+  --purple-99: #fbfaff;
+
+  /* White Shades */
+
+  --white-90: #e4e4e7;
+  --white-95: #f1f1f3;
+  --white-97: #f7f7f8;
+  --white-99: #fcfcfd;
+
+  /* Gray Shades */
+
+  --gray-08: #141414;
+  --gray-10: #1a1a1a;
+  --gray-15: #262626;
+  --gray-20: #333333;
+  --gray-30: #4d4d4d;
+  --gray-40: #666666;
+  --gray-50: #808080;
+  --gray-60: #999999;
+
+  /* Font-Size */
+
+  --font-base: 16px;
+  --font-xs: 14px;
+  --font-sm: 18px;
+  --font-md: 24px;
+  --font-lg: 26px;
+  --font-xl: 30px;
+  --font-2xl: 40px;
+  --font-3xl: 48px;
+  --font-4xl: 60px;
+
+  /* Logo Size  */
+
+  --logo-size: 48px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+li {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: 600;
+}
+
+p,
+span,
+a,
+li {
+  font-weight: 500;
+  font-size: var(--font-sm);
+}
+
+p {
+  color: var(--gray-60);
+}
+span {
+  color: var(--white);
+}
+
+@media (max-width: 1440px) {
+  body {
+    --font-base: 16px;
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-md: 20px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 30px;
+    --font-3xl: 38px;
+    --font-4xl: 46px;
+    --logo-size: 34px;
+  }
+}
+@media (max-width: 390px) {
+  body {
+    --font-base: 16px;
+    --font-xs: 14px;
+    --font-sm: 14px;
+    --font-md: 18px;
+    --font-lg: 18px;
+    --font-xl: 20px;
+    --font-2xl: 24px;
+    --font-3xl: 28px;
+    --font-4xl: 28px;
+    --logo-size: 28px;
+  }
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (max-width: 390px) {
+  .container {
+    width: 100%;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--gray-08);
 }
