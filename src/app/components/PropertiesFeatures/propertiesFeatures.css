@@ -1,0 +1,154 @@
+.properties-content-heading {
+  display: flex;
+  gap: var(--heading-gap);
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.properties-content {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1440px) {
+  .properties-content-heading {
+    gap: 150px;
+  }
+}
+@media (max-width: 1050px) {
+  .properties-content-heading {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .properties-content-heading {
+    align-items: stretch;
+    gap: var(--heading-gap) !important;
+  }
+}
+.properties-content-heading > div:first-child {
+  flex: 8;
+}
+.properties-content-heading > button:last-child {
+  flex: 1;
+}
+
+.properties-outer {
+  overflow: hidden;
+}
+.properties-inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: 0.3s;
+}
+.properties-img {
+  height: 320px;
+  width: 100%;
+}
+.properties-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.properties-card {
+  border-radius: 12px;
+  border: 1px solid var(--gray-15);
+  background: var(--gray-08);
+  min-width: calc(33% - 30px);
+  max-width: calc(33% - 30px);
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+@media (max-width: 1440px) {
+  .properties-card {
+    min-width: calc(40% - 30px);
+    max-width: calc(40% - 30px);
+    padding: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .properties-card {
+    min-width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+@media (max-width: 768px) {
+  .properties-card {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .properties-info-features > h4 {
+    padding: 0.5rem !important;
+  }
+}
+
+.properties-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.properties-info h2 {
+  font-size: var(--font-md);
+}
+.properties-info-title p {
+  font-size: var(--font-sm);
+}
+
+.properties-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.properties-info-features {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.properties-info-features > h4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 5px;
+  height: 50px;
+  padding: 0 1rem;
+  background-color: red;
+  border-radius: 10px;
+  border: 1px solid var(--gray-15);
+  background: var(--gray-10);
+  word-break: keep-all;
+}
+
+.properties-info-cta {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.properties-info-cta h2 {
+  position: relative;
+}
+.properties-info-cta h2::before {
+  content: "Price";
+  position: absolute;
+  left: 0;
+  top: -30px;
+  font-size: var(--font-sm);
+  color: var(--gray-60);
+}

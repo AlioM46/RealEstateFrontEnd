@@ -3,6 +3,41 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap");
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (max-width: 390px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@layer components {
+  .container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 1440px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  @media (max-width: 390px) {
+    .container {
+      width: 100%;
+    }
+  }
+}
 
 :root {
   /* Colors */
@@ -51,6 +86,7 @@
   /* Logo Size  */
 
   --logo-size: 48px;
+  --heading-gap: 200px;
 }
 
 h1,
@@ -103,6 +139,13 @@ span {
     --font-3xl: 38px;
     --font-4xl: 46px;
     --logo-size: 34px;
+    --heading-gap: 150px;
+  }
+}
+
+@media (max-width: 1050px) {
+  body {
+    --heading-gap: 20px;
   }
 }
 @media (max-width: 390px) {
@@ -117,26 +160,46 @@ span {
     --font-3xl: 28px;
     --font-4xl: 28px;
     --logo-size: 28px;
-  }
-}
-
-.container {
-  max-width: 100rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-@media (max-width: 1440px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (max-width: 390px) {
-  .container {
-    width: 100%;
+    --heading-gap: 20px;
   }
 }
 
 body {
   background-color: var(--gray-08);
+}
+
+.container-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.section-margin {
+  padding-top: 65px;
+}
+.section-padding {
+  padding-top: 65px;
+}
+@media (max-width: 1440px) {
+  .container-gap {
+    gap: 60px;
+  }
+  .section-margin {
+    padding-top: 50px;
+  }
+
+  .section-padding {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 550px) {
+  .container-gap {
+    gap: 40px;
+  }
+  .section-margin {
+    padding-top: 35px;
+  }
+  .section-padding {
+    padding-top: 35px;
+  }
 }

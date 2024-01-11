@@ -1,0 +1,71 @@
+.faq-content {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.faq-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--heading-gap);
+}
+
+@media (max-width: 1050px) {
+  .faq-heading {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+}
+@media (max-width: 550px) {
+  .faq-heading {
+    align-items: stretch;
+    gap: var(--heading-gap) !important;
+  }
+}
+
+.faq-heading > button {
+  min-width: 150px;
+}
+.faq-outer {
+  overflow: hidden;
+}
+.faq-inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: 0.3s;
+}
+
+.faq-card {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: calc(33% - 30px);
+  min-width: calc(33% - 30px);
+  border-radius: 12px;
+  border: 1px solid var(--gray-15);
+  background: var(--gray-08);
+}
+
+@media (max-width: 1440px) {
+  .faq-card {
+    min-width: calc(40% - 30px);
+    max-width: calc(40% - 30px);
+    padding: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .faq-card {
+    min-width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+@media (max-width: 768px) {
+  .faq-card {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 30px;
+  }
+}

@@ -1,0 +1,118 @@
+.ourClients-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--heading-gap);
+}
+
+@media (max-width: 1050px) {
+  .ourClients-heading {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+}
+@media (max-width: 550px) {
+  .ourClients-heading {
+    align-items: stretch;
+
+    gap: var(--heading-gap) !important;
+  }
+}
+
+.ourClients-content {
+  padding-bottom: 50px;
+  position: relative;
+}
+.ourClients-info {
+}
+
+.ourClients-outer {
+  overflow: hidden;
+}
+.ourClients-inner {
+  display: flex;
+  gap: 30px;
+  transition: 0.3s;
+  align-items: center;
+}
+
+.ourClients-card {
+  max-width: calc(33% - 30px);
+  min-width: calc(33% - 30px);
+  border: 1px solid var(--gray-15);
+  background: var(--gray-08);
+  border-radius: 12px;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+@media (max-width: 1440px) {
+  .ourClients-card {
+    min-width: calc(40% - 30px);
+    max-width: calc(40% - 30px);
+    padding: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .ourClients-card {
+    min-width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+@media (max-width: 768px) {
+  .ourClients-card {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 30px;
+  }
+}
+
+.card-stars {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.card-stars h4 {
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid var(--gray-15);
+  background: var(--gray-10);
+}
+.card-stars svg {
+  fill: #ffe500;
+  font-size: var(--font-md);
+}
+
+.ourClients-card .card-text h3 {
+  font-size: var(--font-md);
+  margin-bottom: 14px;
+}
+.ourClients-card .card-text h4 {
+  font-size: var(--font-sm);
+  font-weight: 500;
+}
+
+.ourClients-card .card-info {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.ourClients-card .card-info img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 550px) {
+  .ourClients-card .card-stars {
+    font-size: 20px;
+  }
+  .ourClients-card .card-stars h4 {
+    padding: 5px;
+  }
+}

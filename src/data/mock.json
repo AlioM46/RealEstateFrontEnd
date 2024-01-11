@@ -1,0 +1,877 @@
+[
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Contemporary Urban Loft",
+    "description": "A sleek and modern loft in the heart of the city. This urban oasis boasts floor-to-ceiling windows, an open floor plan, and is within walking distance to trendy cafes and shops.",
+    "price": 700000,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "address": {
+      "street": "456 Loft Street",
+      "city": "Cityscape",
+      "state": "CA",
+      "zip": "54321",
+      "coordinates": {
+        "latitude": 34.4321,
+        "longitude": -118.7654
+      }
+    },
+    "features": [
+      "Open Floor Plan",
+      "City Views",
+      "High Ceilings",
+      "Modern Design"
+    ],
+    "images": [
+      "https://example.com/urban_loft/image1.jpg",
+      "https://example.com/urban_loft/image2.jpg",
+      "https://example.com/urban_loft/image3.jpg"
+    ],
+    "agent": {
+      "name": "Michael Rodriguez",
+      "contact": "michael.rodriguez@example.com"
+    },
+    "dateListed": "2024-01-12T14:30:00Z"
+  }
+]

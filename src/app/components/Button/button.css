@@ -1,17 +1,22 @@
 .btn {
+  font-size: var(--font-sm);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px 24px;
   border-radius: 10px;
+  text-align: center;
   color: var(--white);
+  padding: 18px 24px;
+  white-space: nowrap;
 }
+
 .primaryButton {
   background-color: var(--purple-60);
 }
+
 .secondaryButton {
   border: 1px solid var(--gray-15);
-  background-color: var(--gray-08) !important ;
+  background-color: var(--gray-10) !important;
   z-index: 123;
 }
 
