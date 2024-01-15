@@ -8,13 +8,13 @@ import PropertiesFeatures from "./components/PropertiesFeatures/PropertiesFeatur
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Header />
       <Goal />
       <PropertiesFeatures />
       <OurClients />
       <Faq />
       <CTA />
-    </div>
+    </main>
   );
 }

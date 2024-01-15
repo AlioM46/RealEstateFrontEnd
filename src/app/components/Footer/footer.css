@@ -1,0 +1,16 @@
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.footer-logo img {
+  width: var(--logo-size);
+}
+.footer-logo h2 {
+  font-size: var(--font-lg);
+}
+
+.footer {
+  padding: 100px 162px;
+}
