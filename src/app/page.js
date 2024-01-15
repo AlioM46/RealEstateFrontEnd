@@ -3,7 +3,7 @@ import CTA from "./components/CTA/CTA";
 import Faq from "./components/Faq/Faq";
 import Goal from "./components/Goal/Goal";
 import Header from "./components/Header/Header";
-import OurClients from "./components/HomePage/OurClients/OurClients";
+import OurClients from "./components/HomePage/Testimonials/Testimonials";
 import PropertiesFeatures from "./components/PropertiesFeatures/PropertiesFeatures";
 
 export default function Home() {

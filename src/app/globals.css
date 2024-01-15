@@ -82,6 +82,7 @@
   --font-2xl: 40px;
   --font-3xl: 48px;
   --font-4xl: 60px;
+  --SpecialFooterLinks: 20px;
 
   /* Logo Size  */
 
@@ -140,6 +141,7 @@ span {
     --font-4xl: 46px;
     --logo-size: 34px;
     --heading-gap: 150px;
+    --SpecialFooterLinks: 18px;
   }
 }
 
@@ -148,7 +150,7 @@ span {
     --heading-gap: 20px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 550px) {
   body {
     --font-base: 16px;
     --font-xs: 14px;
@@ -161,6 +163,7 @@ span {
     --font-4xl: 28px;
     --logo-size: 28px;
     --heading-gap: 20px;
+    --SpecialFooterLinks: 16px;
   }
 }
 

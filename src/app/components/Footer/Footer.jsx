@@ -3,6 +3,13 @@ import Link from "next/link";
 import React from "react";
 import logo from "../../assets/images/logo.png";
 import "./footer.css";
+import {
+  IoLogoWhatsapp,
+  IoLogoFacebook,
+  IoLogoLinkedin,
+  IoLogoYoutube,
+} from "react-icons/io5";
+
 const sendMsgSVG = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -53,35 +60,69 @@ const links = [
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <main className="footer-content container">
-        {/*  */}
-        <Link className="footer-logo" href={"/"}>
-          <Image src={logo} />
-          <h2>Estatein</h2>
-        </Link>
+    <>
+      <footer className="footer">
+        <main className="footer-content container">
+          <div className="footer-layout">
+            {/*  */}
+            <div className="footer-logo">
+              <Link href={"/"}>
+                <Image src={logo} />
+                <h2>Estatein</h2>
+              </Link>
+              <div className="footer-logo-input">
+                <input type="text" placeholder="Enter Your Email" />
+                {sendMsgSVG}
+                {emailSVG}
+              </div>
+            </div>
 
-        <div className="links">
-          {links.map((arr, idx) => {
-            return (
-              <ul key={idx}>
-                {arr.map((item, index) => {
-                  const link = item.toLowerCase().replace(" ", "-");
+            <div className="links">
+              {links.map((arr, idx) => {
+                return (
+                  <ul key={idx}>
+                    {arr.map((item, index) => {
+                      const link = item.toLowerCase().replace(" ", "-");
 
-                  return (
-                    <li key={index}>
-                      <Link href={`/${link}`}>{item}</Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            );
-          })}
+                      return (
+                        <li key={index}>
+                          <Link href={`/${link}`}>{item}</Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                );
+              })}
+            </div>
+          </div>
+          {/*  */}
+        </main>
+      </footer>
+
+      <div className="footer-copyright ">
+        <div className="footer-copyright-container container">
+          <div>
+            <h5>@{new Date().getFullYear()} Estatein. All Rights Reserved.</h5>
+            <h5>Terms & Conditions</h5>
+          </div>
+
+          <div>
+            <Link href={"/"}>
+              <IoLogoFacebook />
+            </Link>
+            <Link href={"/"}>
+              <IoLogoWhatsapp />
+            </Link>
+            <Link href={"/"}>
+              <IoLogoLinkedin />
+            </Link>
+            <Link href={"/"}>
+              <IoLogoYoutube />
+            </Link>
+          </div>
         </div>
-
-        {/*  */}
-      </main>
-    </footer>
+      </div>
+    </>
   );
 };
 

@@ -19,7 +19,6 @@ const Faq = () => {
     setCardWidth(card.current.clientWidth);
   }, []);
 
-  console.log(currentWidth);
 
   const specialStyle = {
     transform: `translateX(-${currentWidth}px)`,
