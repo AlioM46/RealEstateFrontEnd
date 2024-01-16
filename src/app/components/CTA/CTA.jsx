@@ -1,6 +1,5 @@
 import React from "react";
-import {PrimaryButton} from "../Button/Button";
-import HeadingTitle from "../HeadingTitle/HeadingTitle";
+import { PrimaryButton } from "../Button/Button";
 import "./cta.css";
 
 const CTA = () => {

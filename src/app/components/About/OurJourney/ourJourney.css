@@ -1,0 +1,70 @@
+.ourJourney-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.ourJourney-card {
+  background-color: var(--gray-10);
+  border: 1px solid var(--gray-15);
+  border-radius: 12px;
+  padding: 16px 24px;
+  flex: 1;
+}
+.ourJourney-cards h4 {
+  font-size: var(--font-2xl);
+}
+
+.ourJourney-content {
+  display: flex;
+  /* background-color: red; */
+  gap: 80px;
+  /* margin-top: 50px; */
+}
+
+.ourJourney-content > div {
+  flex: 1;
+}
+
+.ourJourney-image {
+  background-image: url("../../../../../public/Waves.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.ourJourney-image::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.79);
+  position: absolute;
+}
+
+.ourJourney-image img {
+  position: absolute;
+  bottom: 0;
+  z-index: 11;
+}
+
+@media (max-width: 1440px) {
+  .ourJourney-content {
+    gap: 60px;
+  }
+  .ourJourney-cards {
+    gap: 16px;
+  }
+}
+@media (max-width: 812px) {
+  .ourJourney-content {
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .ourJourney-image img {
+    position: relative;
+  }
+}

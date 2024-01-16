@@ -2,13 +2,13 @@ import Image from "next/image";
 import React from "react";
 import img from "../../assets/images/header.png";
 import img2 from "../../assets/images/header2.png";
-import {PrimaryButton, SecondaryButton} from "../Button/Button";
+import { PrimaryButton, SecondaryButton } from "../Button/Button";
 import "./header.css";
 
 const cardsInfo = [
-  {title: "200+", text: "Happy Customers"},
-  {title: "10k+", text: "Properties For Clients"},
-  {title: "16+", text: "Years of Experience"},
+  { title: "200+", text: "Happy Customers" },
+  { title: "10k+", text: "Properties For Clients" },
+  { title: "16+", text: "Years of Experience" },
 ];
 
 const Header = () => {

@@ -206,3 +206,7 @@ body {
     padding-top: 35px;
   }
 }
+
+svg {
+  max-width: 100px;
+}

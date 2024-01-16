@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import React, {useEffect, useRef, useState} from "react";
-import {FaBed, FaChevronCircleRight, FaShower} from "react-icons/fa";
-import {FaHouseChimney} from "react-icons/fa6";
+import React, { useEffect, useRef, useState } from "react";
+import { FaBed, FaChevronCircleRight, FaShower } from "react-icons/fa";
+import { FaHouseChimney } from "react-icons/fa6";
 import Data from "../../../data/mock.json";
-import {PrimaryButton, SecondaryButton} from "../Button/Button";
+import { PrimaryButton, SecondaryButton } from "../Button/Button";
 import HeadingTitle from "../HeadingTitle/HeadingTitle";
 import SlideButtons from "../SlideButtons/SlideButtons";
 import "./propertiesFeatures.css";
