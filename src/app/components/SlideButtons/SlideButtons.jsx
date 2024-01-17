@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "./SlideButtons.css";
-const SlideButtons = ({setter, maxWidth, cardWidth, currentWidth}) => {
+const SlideButtons = ({ setter, maxWidth, cardWidth, currentWidth }) => {
   const increase = () => {
     if (currentWidth + 100 < maxWidth) {
-      setter((prev) => prev + cardWidth + 30);
+      setter((prev) => prev + cardWidth + 32);
     }
   };
 

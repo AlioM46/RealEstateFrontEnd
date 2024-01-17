@@ -127,7 +127,10 @@ p {
 span {
   color: var(--white);
 }
-
+svg {
+  width: 24px;
+  height: 24px;
+}
 @media (max-width: 1440px) {
   body {
     --font-base: 16px;
@@ -142,6 +145,11 @@ span {
     --logo-size: 34px;
     --heading-gap: 150px;
     --SpecialFooterLinks: 18px;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -164,6 +172,10 @@ span {
     --logo-size: 28px;
     --heading-gap: 20px;
     --SpecialFooterLinks: 16px;
+  }
+  svg {
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -205,8 +217,4 @@ body {
   .section-padding {
     padding-top: 35px;
   }
-}
-
-svg {
-  max-width: 100px;
 }
