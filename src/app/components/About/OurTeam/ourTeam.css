@@ -1,0 +1,136 @@
+.ourTeam svg {
+  width: 24px;
+  height: 24px;
+}
+
+/*  */
+.ourTeam-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+.ourTeam-card {
+  flex: 1 1 300px;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid var(--gray-15);
+  align-self: stretch;
+  text-align: center;
+  position: relative;
+}
+.ourTeam-card img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  align-self: stretch;
+}
+.ourTeam-card > a {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 14px 26px;
+  gap: 10px;
+  border-radius: 43px;
+  background: var(--purple-60);
+}
+
+.ourTeam-card > div:first-of-type {
+  margin: 50px 0 24px 0;
+}
+
+.ourTeam-card h2 {
+  color: var(--white);
+  text-align: center;
+  font-size: var(--font-md);
+  line-height: 1.2;
+}
+.ourTeam-card p {
+  color: var(--gray-60);
+  font-size: var(--font-sm);
+  font-weight: 500;
+  line-height: 1.3;
+}
+.ourTeam-card > div:last-of-type {
+  display: flex;
+  padding: 14px 14px 14px 24px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 100px;
+  border: 1px solid var(--gray-15);
+  background: var(--gray-10);
+  cursor: pointer;
+}
+
+.ourTeam-card > div:last-of-type h5 {
+  padding: 10px;
+  background: var(--purple-60);
+  border-radius: 50%;
+}
+
+@media (max-width: 1440px) {
+  .ourTeam svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ourTeam-cards {
+    gap: 20px;
+  }
+  .ourTeam-card {
+    padding: 1.5rem;
+  }
+  .ourTeam-card img {
+    height: 220px;
+  }
+  .ourTeam-card > a {
+    padding: 20px;
+  }
+
+  .ourTeam-card > div:first-of-type {
+    margin: 50px 0 20px 0;
+  }
+
+  .ourTeam-card > div:last-of-type {
+    padding: 10px 20px;
+  }
+
+  .ourTeam-card > div:last-of-type h5 {
+    padding: 8px;
+  }
+}
+@media (max-width: 550px) {
+  .ourTeam-cards {
+    gap: 20px;
+  }
+  .ourTeam-card {
+    padding: 20px;
+  }
+  .ourTeam-card img {
+    height: 270px;
+  }
+
+  .ourTeam-card > div:first-of-type {
+    margin: 40px 0 1rem 0;
+  }
+
+  .ourTeam-card > div:last-of-type {
+    padding: 8px 8px 8px 24px;
+  }
+
+  .ourTeam-card > div:last-of-type h5 {
+    padding: 14px;
+  }
+  .ourTeam-card > a {
+    top: 58%;
+  }
+}

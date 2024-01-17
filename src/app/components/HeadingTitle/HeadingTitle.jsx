@@ -1,5 +1,5 @@
 import "./headingTitle.css";
-const HeadingTitle = ({title, text}) => {
+const HeadingTitle = ({ title, text }) => {
   return (
     <div className="headingTitle section-margin">
       <div className="headingTitle-content">

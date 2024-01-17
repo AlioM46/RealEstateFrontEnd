@@ -1,0 +1,94 @@
+.howItWorks-content {
+}
+.howItWorks-cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 30px;
+}
+.howItWorks-card {
+  flex: 1 1 400px;
+  position: relative;
+  align-self: stretch;
+}
+
+.howItWorks-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 90%;
+  background-image: linear-gradient(to bottom, #703bf7, rgba(0, 0, 0, 0));
+}
+.howItWorks-card > span {
+  display: block;
+  padding: 16px 20px;
+  font-size: 20px;
+}
+
+.howItWorks-text h2 {
+  font-size: 26px;
+  line-height: 150%; /* 45px */
+}
+.howItWorks-text p {
+  color: var(--gray-60);
+  font-size: var(--font-sm);
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.howItWorks-text {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 0px 12px 12px 12px;
+  border: 1px solid #262626;
+  border-left: none;
+  background: linear-gradient(
+    121deg,
+    #703bf7 -49.01%,
+    rgba(112, 59, 247, 0) 13.65%
+  );
+  position: relative;
+}
+
+.howItWorks-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-100%);
+  width: 90%;
+  background-image: linear-gradient(to right, #703bf7, rgba(0, 0, 0, 0));
+  height: 1px;
+}
+
+@media (max-width: 1440px) {
+  .howItWorks-card > span {
+    display: block;
+    padding: 14px 1rem;
+    font-size: 16px;
+  }
+  .howItWorks-text h2 {
+    font-size: 20px;
+  }
+  .howItWorks-cards {
+    gap: 40px 20px;
+  }
+  .howItWorks-text {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .howItWorks-cards {
+    gap: 30px;
+  }
+  .howItWorks-text {
+    gap: 14px;
+  }
+}
