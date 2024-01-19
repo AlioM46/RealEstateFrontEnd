@@ -218,3 +218,8 @@ body {
     padding-top: 35px;
   }
 }
+
+input,
+select {
+  outline: none;
+}

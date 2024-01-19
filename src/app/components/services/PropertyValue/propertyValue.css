@@ -1,0 +1,23 @@
+.propertyValue-cards {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.propertyValue-cards > div:last-child {
+  grid-column: span 2;
+}
+
+@media (max-width: 1440px) {
+  .propertyValue-cards {
+    gap: 20px;
+  }
+}
+@media (max-width: 812px) {
+  .propertyValue-cards {
+    grid-template-columns: 100%;
+  }
+  .propertyValue-cards > div:last-child {
+    grid-column: span 1;
+  }
+}

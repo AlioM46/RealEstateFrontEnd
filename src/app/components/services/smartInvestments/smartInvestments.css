@@ -1,0 +1,84 @@
+.smartInvestments-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+}
+.smartInvestments-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.smartInvestments-text .headingTitle {
+  padding: 0 !important;
+}
+.smartInvestments-text .secCards {
+  flex-direction: column-reverse;
+}
+.smartInvestments-text .secCards-text {
+  flex-direction: column;
+}
+.smartInvestments-text .secCards-text h4 {
+  font-size: var(--font-sm);
+  font-style: normal;
+  color: var(--white-90);
+}
+.smartInvestments-text .secCards p {
+  font-size: var(--font-md);
+  color: var(--white);
+  font-weight: 700;
+}
+.smartInvestments-text .secCards-text button {
+  width: 100%;
+}
+.smartInvestments-cards {
+  align-self: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: var(--gray-10);
+}
+
+.smartInvestments-cards > div {
+  background-color: var(--gray-08);
+}
+
+@media (max-width: 1440px) {
+  .smartInvestments-cards > div {
+    gap: 24px;
+  }
+  .smartInvestments-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+  }
+  .smartInvestments-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (max-width: 976px) {
+  .smartInvestments-cards > div {
+    gap: 1rem;
+  }
+  .smartInvestments-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .smartInvestments-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .smartInvestments-cards {
+    grid-template-columns: 1fr;
+  }
+}

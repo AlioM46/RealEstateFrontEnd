@@ -1,6 +1,6 @@
 import React from "react";
 import "./cards.css";
-
+import { SecondaryButton } from "../../Button/Button";
 const Cards = ({ title, text, icon }) => {
   return (
     <div className="cards">
@@ -18,3 +18,16 @@ const Cards = ({ title, text, icon }) => {
 };
 
 export default Cards;
+
+export const SecondaryCards = ({ title, text }) => {
+  return (
+    <div className="secCards">
+      <div className="secCards-text">
+        <h4>{title}</h4>
+        <SecondaryButton>Learn More</SecondaryButton>
+      </div>
+
+      <p>{text}</p>
+    </div>
+  );
+};
