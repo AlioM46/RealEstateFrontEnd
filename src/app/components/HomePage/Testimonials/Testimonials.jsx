@@ -6,6 +6,7 @@ import { SecondaryButton } from "../../Button/Button";
 import HeadingTitle from "../../HeadingTitle/HeadingTitle";
 import SlideButtons from "../../SlideButtons/SlideButtons";
 import "./ourClients.css";
+import Image from "next/image";
 
 const OurClients = () => {
   const mockData = {
@@ -80,7 +81,7 @@ const OurClients = () => {
                       </div>
                       {/*  */}
                       <div className="card-info">
-                        <img src={item.profileImage} alt={item.title} />
+                        <Image src={item.profileImage} alt={item.title} />
                         <div>
                           <h4>{item.name}</h4>
                           <p>{item.location}</p>

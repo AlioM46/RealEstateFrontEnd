@@ -38,9 +38,9 @@ const Hero = () => {
         </div>
         {/*  */}
         <div className="hero-img">
-          <Image src={img} alt="" />
+          <Image src={img} alt="Hero Images" />
 
-          <Image src={img2} alt="" />
+          <Image src={img2} alt="Hero Images" />
         </div>
       </div>
     </div>

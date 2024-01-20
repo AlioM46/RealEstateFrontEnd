@@ -9,6 +9,7 @@ import { PrimaryButton, SecondaryButton } from "../Button/Button";
 import HeadingTitle from "../HeadingTitle/HeadingTitle";
 import SlideButtons from "../SlideButtons/SlideButtons";
 import "./propertiesFeatures.css";
+import Image from "next/image";
 
 const PropertiesFeatures = () => {
   const [currentWidth, setCurrentWidth] = useState(0);
@@ -61,11 +62,11 @@ const PropertiesFeatures = () => {
               return (
                 <div key={idx} className="properties-card" ref={cardRef}>
                   <div className="properties-img">
-                    <img
+                    <Image
                       src={
                         "https://s3-alpha-sig.figma.com/img/a2b4/e026/0c692d688fb8fd238642558f0aee6697?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jfWAVSxEeJ6Ldep8TEI2Fj09bS8wiJ08JoG1OYGSrwzc6~xd7Pw3MZYtVqSfVGs7vZoimgMNaCGqO1xULB4d6RPD5qjAzn17NENKtTS4k2y92QkNJtwoG0AoPgBQSNZy5xRG-8jrOmGEz5nhrqRGjCK8eg4AN5L3ftJ-bSn3UTR5FV0qUZOS3bLtL0PUT7mOqgC8O56x0-Y-E54lMj7E6nJfKUWwHwmSDnwyVpk7uHfqmfgM2ujyMNVdQU7H8rRUfPe~NsRS43FCv01BMVplpUbmse69ykHZkfjE91ZhOREEsNyJVknJpQaBNcjlr6OZXiQJnSfF9-C7-y-gKCZM4A__"
                       }
-                      alt=""
+                      alt="Properties Img"
                     />
                   </div>
 

@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {usePathname} from "next/navigation";
-import {useEffect, useState} from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import logo from "../../assets/images/logo.png";
 import "./nav.css";
 
@@ -21,7 +21,7 @@ const Nav = () => {
     <div className="nav">
       <div className="nav-content container">
         <Link className="nav-logo" href={"/"}>
-          <Image src={logo} />
+          <Image src={logo} alt="logo" />
           <h2>Estatein</h2>
         </Link>
         {/*  */}

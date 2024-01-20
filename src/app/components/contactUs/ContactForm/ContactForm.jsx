@@ -25,9 +25,10 @@ const ContactForm = () => {
 
   console.log(toggleMenu);
 
-  const inquiryTypesOptionsRender = inquiryTypes.map((item) => {
+  const inquiryTypesOptionsRender = inquiryTypes.map((item, idx) => {
     return (
       <li
+        key={idx}
         onClick={() => {
           setType(item.toLowerCase().replace(" ", "-"));
           setToggleMenu(false);
