@@ -7,14 +7,14 @@ import HeadingTitle from "../../HeadingTitle/HeadingTitle";
 import SlideButtons from "../../SlideButtons/SlideButtons";
 import "./ourClients.css";
 import Image from "next/image";
-
+import personImg from "../../../../../public/images/personImg.png";
 const OurClients = () => {
   const mockData = {
     title: "Efficient And Reliable",
     text: "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
     location: "US, Florida",
     name: "Wade Warren",
-    profileImage: `https://s3-alpha-sig.figma.com/img/1dda/9e28/6768bcc08f8c496bce3bb27566805e08?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E2Tu~rcL~6hFefirXdqUd2Yu5YXVCAN9631MT85z65flTQO5MmI2CpHdOXFN6pW9sVs27DegpMr48W4yX7U86Q~Sqk-hIP1ejLJLb14BXRIoNj-4YKyasdMNzuwIoy2ndfa1Kj2Z9mdRoRVaH46J-iMWAF8ZLbXHSSNFRZ-5vZ9XXNM9tcstKFb9P3nVaOA-3KuhjjN7S8Lkg-ZH2jf4XLFBkJt0TV5cHifFbaO0GTBvrimqARahBqY~bK3acJkdamupdYdXTBFown9TitIS~5-PKLadZbXFc8xCeKELnU8vbwDZY8Ay6qOfsgUZjM7JBP~2vs5mhSCowVhIFm6rkw__`,
+    profileImage: personImg,
   };
 
   const [currentWidth, setCurrentWidth] = useState(0);

@@ -195,7 +195,7 @@ const SearchAndFilters = () => {
             return (
               <div key={idxx} className="searchAndFilter-select">
                 <div
-                  onClick={() => handleToggle(key)}
+                  onClick={() => handleToggle(idxx)}
                   className="searchAndFilter-text"
                 >
                   <div>
@@ -220,7 +220,7 @@ const SearchAndFilters = () => {
                     </svg>
                   </p>
                 </div>
-                <ul className={`${toggle == key && "active"}`}>
+                <ul className={`${toggle == idxx && "active"}`}>
                   {item.options.map((opt, idx) => {
                     return (
                       <li onClick={() => setToggle(null)} key={idx}>

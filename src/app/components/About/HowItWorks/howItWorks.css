@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px 30px;
+  gap: 100px 30px;
 }
 .howItWorks-card {
   flex: 1 1 400px;
@@ -54,6 +54,7 @@
     rgba(112, 59, 247, 0) 13.65%
   );
   position: relative;
+  height: 100%;
 }
 
 .howItWorks-text::before {
@@ -77,7 +78,7 @@
     font-size: 20px;
   }
   .howItWorks-cards {
-    gap: 40px 20px;
+    gap: 80px 20px;
   }
   .howItWorks-text {
     gap: 16px;
@@ -86,7 +87,7 @@
 
 @media (max-width: 550px) {
   .howItWorks-cards {
-    gap: 30px;
+    gap: 60px 30px;
   }
   .howItWorks-text {
     gap: 14px;
