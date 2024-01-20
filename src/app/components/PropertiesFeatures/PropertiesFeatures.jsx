@@ -41,25 +41,25 @@ const PropertiesFeatures = () => {
 
         <div className="properties-outer" ref={outerRef}>
           <div className="properties-inner" style={specialStyle} ref={innerRef}>
-            {Data.map((item) => {
+            {Data.map((item, idx) => {
               let desc;
 
               if (item.description?.length > 80) {
                 desc = (
-                  <p>
+                  <p key={idx + 12}>
                     {item.description.slice(0, 80)}...{" "}
                     <Link href={"/"}>Read More</Link>
                   </p>
                 );
               } else {
-                <p>
+                <p key={idx + 11}>
                   {item.description.slice(0, 80)}...{" "}
                   <Link href={"/"}>Read More</Link>
                 </p>;
               }
 
               return (
-                <div className="properties-card" ref={cardRef}>
+                <div key={idx} className="properties-card" ref={cardRef}>
                   <div className="properties-img">
                     <img
                       src={

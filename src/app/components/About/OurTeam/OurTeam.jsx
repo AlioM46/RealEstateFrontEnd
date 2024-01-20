@@ -24,9 +24,9 @@ const OurTeam = () => {
         />
 
         <div className="ourTeam-cards">
-          {teamInfo.map((item) => {
+          {teamInfo.map((item, idx) => {
             return (
-              <div className="ourTeam-card">
+              < div key={idx} className="ourTeam-card">
                 <Image src={item.img} alt="Person" />
 
                 <Link href={"/"}>
@@ -60,7 +60,7 @@ const OurTeam = () => {
                     </svg>{" "}
                   </h5>
                 </div>
-              </div>
+              </>
             );
           })}
         </div>

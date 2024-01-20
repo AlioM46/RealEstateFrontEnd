@@ -191,9 +191,9 @@ const SearchAndFilters = () => {
         </div>
 
         <div className="searchAndFilter-selects">
-          {filtersInfo.map((item, key) => {
+          {filtersInfo.map((item, idxx) => {
             return (
-              <div key={key} className="searchAndFilter-select">
+              <div key={idxx} className="searchAndFilter-select">
                 <div
                   onClick={() => handleToggle(key)}
                   className="searchAndFilter-text"

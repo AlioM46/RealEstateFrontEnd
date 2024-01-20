@@ -29,9 +29,9 @@ const OurAchievements = () => {
         />
 
         <div className="ourAchievements-cards">
-          {cardsInfo.map((item) => {
+          {cardsInfo.map((item, idx) => {
             return (
-              <div className="ourAchievements-card">
+              <div key={idx} className="ourAchievements-card">
                 <h2>{item.title}</h2>
                 <p>{item.text}</p>
               </div>

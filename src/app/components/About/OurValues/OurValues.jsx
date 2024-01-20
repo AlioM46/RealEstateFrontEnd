@@ -45,9 +45,9 @@ const OurValues = () => {
 
         {/*  */}
         <div className="ourValues-cards">
-          {cardsInfo.map((item) => {
+          {cardsInfo.map((item, idx) => {
             return (
-              <div className="ourValues-card">
+              <div key={idx} className="ourValues-card">
                 <div className="ourValues-card-text">
                   <span>{item.icon}</span>
 

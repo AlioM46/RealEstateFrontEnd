@@ -88,9 +88,9 @@ const OurClients = () => {
 
         <div className=" outer" ref={outer}>
           <div className="inner" ref={inner} style={transformStyle}>
-            {cardsInfo.map((item) => {
+            {cardsInfo.map((item, idx) => {
               return (
-                <div ref={card} className="ourClients-card">
+                <div ref={card} key={idx} className="ourClients-card">
                   <ul className="ourClients-text">
                     <li>
                       <p>Since {item.date}</p>

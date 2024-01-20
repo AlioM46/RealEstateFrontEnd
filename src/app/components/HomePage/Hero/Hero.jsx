@@ -26,9 +26,9 @@ const Hero = () => {
             <PrimaryButton>Browser Properties</PrimaryButton>
           </div>
           <div className="hero-text-cards">
-            {cardsInfo?.map((item) => {
+            {cardsInfo?.map((item, idx) => {
               return (
-                <div className="hero-text-card">
+                <div key={idx} className="hero-text-card">
                   <h4>{item.title}</h4>
                   <p>{item.text}</p>
                 </div>

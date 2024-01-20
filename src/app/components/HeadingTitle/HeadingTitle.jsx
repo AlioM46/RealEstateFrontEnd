@@ -6,9 +6,10 @@ const HeadingTitle = ({ title, text }) => {
         <div className="stars">
           {Array(3)
             .fill("")
-            .map((item) => {
+            .map((item, idx) => {
               return (
                 <svg
+                  key={idx}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

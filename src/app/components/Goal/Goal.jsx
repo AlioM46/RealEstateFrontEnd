@@ -83,9 +83,9 @@ const Goal = () => {
   return (
     <div className="goal">
       <div className="goal-content">
-        {goalInfo.map((item) => {
+        {goalInfo.map((item, idx) => {
           return (
-            <div className="goal-cards">
+            <div key={idx} className="goal-cards">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

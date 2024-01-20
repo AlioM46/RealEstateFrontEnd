@@ -22,9 +22,9 @@ const OurJourney = () => {
             }
           />
           <div className="ourJourney-cards">
-            {cardsInfo?.map((item) => {
+            {cardsInfo?.map((item, key) => {
               return (
-                <div className="ourJourney-card">
+                <div key={key} className="ourJourney-card">
                   <h4>{item.title}</h4>
                   <p>{item.text}</p>
                 </div>

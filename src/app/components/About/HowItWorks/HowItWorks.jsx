@@ -42,7 +42,7 @@ const HowItWorks = () => {
         <div className="howItWorks-cards">
           {cardsInfo.map((item, idx) => {
             return (
-              <div className="howItWorks-card">
+              <div key={idx} className="howItWorks-card">
                 <span>Step 0{idx + 1}</span>
                 <div className="howItWorks-text">
                   <h2>{item.title}</h2>

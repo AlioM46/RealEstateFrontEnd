@@ -101,9 +101,9 @@ const ContactInfo = () => {
   return (
     <div className="contactInfo">
       <div className="contactInfo-content">
-        {contactData.map((item) => {
+        {contactData.map((item, idx) => {
           return (
-            <div className="contactInfo-cards">
+            <div className="contactInfo-cards" key={idx}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

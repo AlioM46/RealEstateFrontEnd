@@ -1,8 +1,8 @@
 "use client";
 
-import React, {useEffect, useRef, useState} from "react";
-import {FaStar} from "react-icons/fa";
-import {SecondaryButton} from "../../Button/Button";
+import React, { useEffect, useRef, useState } from "react";
+import { FaStar } from "react-icons/fa";
+import { SecondaryButton } from "../../Button/Button";
 import HeadingTitle from "../../HeadingTitle/HeadingTitle";
 import SlideButtons from "../../SlideButtons/SlideButtons";
 import "./ourClients.css";
@@ -60,15 +60,15 @@ const OurClients = () => {
             <div className="ourClients-inner" style={specialStyle} ref={inner}>
               {Array(10)
                 .fill(mockData)
-                .map((item) => {
+                .map((item, idx) => {
                   return (
-                    <div className="ourClients-card" ref={card}>
+                    <div key={idx} className="ourClients-card" ref={card}>
                       <div className="card-stars">
                         {Array(5)
                           .fill("")
-                          .map((item) => {
+                          .map((item, idxx) => {
                             return (
-                              <h4>
+                              <h4 key={idxx}>
                                 <FaStar />
                               </h4>
                             );

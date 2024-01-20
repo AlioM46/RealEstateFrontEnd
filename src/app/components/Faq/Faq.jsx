@@ -1,7 +1,7 @@
 "use client";
 
-import React, {useEffect, useRef, useState} from "react";
-import {SecondaryButton} from "../Button/Button";
+import React, { useEffect, useRef, useState } from "react";
+import { SecondaryButton } from "../Button/Button";
 import HeadingTitle from "../HeadingTitle/HeadingTitle";
 import SlideButtons from "../SlideButtons/SlideButtons";
 import "./faq.css";
@@ -18,7 +18,6 @@ const Faq = () => {
     setMaxWidth(inner.current.scrollWidth - inner.current.offsetWidth);
     setCardWidth(card.current.clientWidth);
   }, []);
-
 
   const specialStyle = {
     transform: `translateX(-${currentWidth}px)`,
@@ -50,9 +49,9 @@ const Faq = () => {
             <div className="faq-inner" style={specialStyle} ref={inner}>
               {Array(10)
                 .fill(mockData)
-                .map((item) => {
+                .map((item, idx) => {
                   return (
-                    <div ref={card} className="faq-card">
+                    <div ref={card} key={idx} className="faq-card">
                       <h2>{item.question}</h2>
                       <p>{item.answer}</p>
                       <SecondaryButton>Read More</SecondaryButton>
