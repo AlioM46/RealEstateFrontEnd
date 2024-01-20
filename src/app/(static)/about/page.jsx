@@ -7,6 +7,11 @@ import CTA from "@/app/components/CTA/CTA";
 import OurClients from "@/app/components/About/OurClients/OurClients";
 import React from "react";
 
+export const metadata = {
+  title: "Estatein Real Estate | About Us",
+  description: "Buy Your Dream Home",
+};
+
 const AboutPage = () => {
   return (
     <main>

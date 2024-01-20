@@ -7,6 +7,11 @@ import Gallery from "@/app/components/contactUs/Gallery/Gallery";
 import OurOffices from "@/app/components/contactUs/OurOffices/OurOffices";
 import React from "react";
 
+export const metadata = {
+  title: "Estatein Real Estate | Contact Us",
+  description: "Buy Your Dream Home",
+};
+
 const Contact = () => {
   return (
     <main>

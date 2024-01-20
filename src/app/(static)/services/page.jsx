@@ -6,6 +6,11 @@ import PropertyManagement from "@/app/components/services/propertyManagement/Pro
 import SmartInvestments from "@/app/components/services/smartInvestments/SmartInvestments";
 import React from "react";
 
+export const metadata = {
+  title: "Estatein Real Estate | Services",
+  description: "Buy Your Dream Home",
+};
+
 const Services = () => {
   return (
     <main>
